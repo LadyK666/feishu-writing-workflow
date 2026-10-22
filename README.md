@@ -37,7 +37,14 @@ npx skills add LadyK666/feishu-writing-workflow -a codex
 
 ### 飞书连接是使用前提
 
-写作规则不替代平台连接。本项目不打包账号、应用密钥、登录态或个人 CLI 路径。可以沿用已有可用的飞书连接；推荐结合 [飞书官方 CLI 与技能](https://github.com/larksuite/cli)，由它们处理当前命令语法与授权。
+连接与授权直接复用上游技能，本项目只提供写作与编辑工作流：
+
+| 上游技能 | 用途 | 来源 |
+|---|---|---|
+| `lark-shared` | CLI 配置、用户身份、登录与权限问题 | [官方 SKILL](https://github.com/larksuite/cli/tree/main/skills/lark-shared) |
+| `lark-doc` | 飞书文档读取、创建、编辑与资源操作 | [官方 SKILL](https://github.com/larksuite/cli/tree/main/skills/lark-doc) |
+
+如已有 `feishu-bridge-docs` 等本地连接适配层，可以继续复用；这类本地技能不随本仓库分发，也不要求使用者拥有同名技能。账号、应用配置、登录态与个人 CLI 路径保留在使用者环境中。
 
 尚未安装官方工具时，参考其当前安装指南：
 
@@ -47,7 +54,7 @@ npx skills add larksuite/cli --skill lark-doc -a codex
 npx skills add larksuite/cli --skill lark-shared -a codex
 ```
 
-需要文档搜索、真正复制文档、文件权限或独立评论操作时，按任务另装官方 `lark-drive`。本仓库不转发或复制官方技能源码。主进程按官方指引完成一次配置和用户授权，之后复用可用连接；不要每次写作都重新初始化账号或重复授权。
+需要文档搜索、真正复制文档、文件权限或独立评论操作时，按任务另装官方 [lark-drive](https://github.com/larksuite/cli/tree/main/skills/lark-drive)。配置、身份和认证按 `lark-shared` 当前指引处理，文档操作按 `lark-doc` 当前指引处理；可用连接不重复初始化或授权。本仓库不复制上游技能文件。
 
 具体要求、身份选择、CLI 路径问题及失败处理见 [飞书连接说明](skills/feishu-document-workflow/references/connection.md)。无可用连接时可以制作本地草稿，但不能声称已经写进飞书。
 
@@ -100,4 +107,4 @@ npx skills add larksuite/cli --skill lark-shared -a codex
 
 欢迎提供虚构或公开授权的最小案例，说明文档类型、可改范围、目标版式和实际问题。优先修正事实变化、遗漏限制、错误加粗、保护区被改或写回验证不足的问题。
 
-拟采用 [MIT License](LICENSE)，发布前由仓库所有者确认署名和材料权利。配图和示例不包含真实账号、私人文档或实验数据。本包不收录用户连接配置，也没有自带遥测或写入脚本。
+本仓库新增内容拟采用 [MIT License](LICENSE)，公开前由仓库所有者确认署名和材料权利。上游连接技能的来源、许可及引用范围见 [第三方说明](THIRD_PARTY_NOTICES.md)；本仓库的许可不替代第三方条款，也不表示官方背书。配图和示例不包含真实账号、私人文档或实验数据。本包不收录用户连接配置，也没有自带遥测或写入脚本。

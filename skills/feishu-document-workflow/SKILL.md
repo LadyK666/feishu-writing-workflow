@@ -26,7 +26,7 @@ description: Write, rewrite, translate, condense, organize, review, and format F
 
 ## 飞书操作归主进程
 
-读取 [连接说明](references/connection.md) 选择当前可用工具。推荐使用官方 `lark-doc` 的当前参考；认证问题按官方 `lark-shared` 处理。这些是需要另行安装的上游能力，不包含在本包中。
+读取 [连接说明](references/connection.md) 复用现有连接技能。文档操作引用官方 [lark-doc](https://github.com/larksuite/cli/tree/main/skills/lark-doc)，配置与认证引用 [lark-shared](https://github.com/larksuite/cli/tree/main/skills/lark-shared)；读取它们已安装的当前参考，不在本技能重写命令与授权手册。这些上游能力需要另行安装，不包含在本包中。已有本地连接适配层可以复用，不把其私有配置变成公共依赖。
 
 主进程统一执行飞书读取、配置与认证、资源获取、创建、修改和回读。子模型只处理指定本地材料，不访问飞书、不运行 CLI、不读取凭据、不请求扫码、不直接写回。
 

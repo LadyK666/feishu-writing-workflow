@@ -30,4 +30,4 @@
 - [larksuite/cli](https://github.com/larksuite/cli)：官方安装、配置与授权入口，以及 Docx、云盘、Sheet、Base 等能力的边界。
 - [官方 lark-doc 技能](https://github.com/larksuite/cli/tree/main/skills/lark-doc)：按读取、创建、导入、编辑等场景查阅当前参考。
 
-本项目自行撰写飞书工作流规则，不复制官方技能或本地用户配置。涉及命令行为以所安装版本的官方帮助为准。
+本项目自行撰写飞书工作流规则，通过链接引用官方连接与文档技能，不复制其文件或本地用户配置。涉及命令行为以所安装版本的官方帮助为准。已核验的上游许可和引用范围见 [第三方说明](../THIRD_PARTY_NOTICES.md)。
