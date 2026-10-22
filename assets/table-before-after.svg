@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="670" viewBox="0 0 1600 670" role="img" aria-labelledby="title desc">
+<title id="title">Fictional table: before and after</title><desc id="desc">Same Small subset, unchanged row order and values. Bold marks each metric winner independently. Score ties are both bold. Full-cell blue and teal fills show structure.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#172B4D} .muted{fill:#526580}</style>
+<rect x="0" y="0" width="1600" height="670" rx="24" fill="#F8FAFD"/>
+<text x="40" y="48" font-size="29" font-weight="700" text-anchor="start" class="">A clearer comparison, without changing the data</text>
+<text x="40" y="80" font-size="18" font-weight="400" text-anchor="start" class="muted">SYNTHETIC DATA  /  Small subset  /  Score higher is better; time lower is better</text>
+<rect x="32" y="106" width="744" height="514" rx="18" fill="#FFFFFF" stroke="#D8E2ED"/>
+<text x="58" y="146" font-size="17" font-weight="700" text-anchor="start" class="">BEFORE</text>
+<text x="58" y="181" font-size="19" font-weight="400" text-anchor="start" class="muted">Raw table. No visual comparison cues.</text>
+<rect x="58" y="215" width="668" height="60" rx="0" fill="#F1F3F6"/>
+<text x="72" y="251" font-size="19" font-weight="700" text-anchor="start" class="">Method</text>
+<text x="274" y="251" font-size="19" font-weight="700" text-anchor="end" class="">Score</text>
+<text x="382" y="251" font-size="19" font-weight="700" text-anchor="end" class="">mean</text>
+<text x="490" y="251" font-size="19" font-weight="700" text-anchor="end" class="">median</text>
+<text x="598" y="251" font-size="19" font-weight="700" text-anchor="end" class="">p95</text>
+<text x="712" y="251" font-size="19" font-weight="700" text-anchor="end" class="">Count</text>
+<rect x="58" y="275" width="668" height="66" rx="0" fill="#FFFFFF"/>
+<text x="72" y="315" font-size="22" font-weight="400" text-anchor="start" class="">Aster</text>
+<text x="274" y="315" font-size="22" font-weight="400" text-anchor="end" class="">83.0</text>
+<text x="382" y="315" font-size="22" font-weight="400" text-anchor="end" class="">42</text>
+<text x="490" y="315" font-size="22" font-weight="400" text-anchor="end" class="">40</text>
+<text x="598" y="315" font-size="22" font-weight="400" text-anchor="end" class="">70</text>
+<text x="712" y="315" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 58 341 H 726" stroke="#D8E2ED"/>
+<rect x="58" y="341" width="668" height="66" rx="0" fill="#FFFFFF"/>
+<text x="72" y="381" font-size="22" font-weight="400" text-anchor="start" class="">Birch</text>
+<text x="274" y="381" font-size="22" font-weight="400" text-anchor="end" class="">85.5</text>
+<text x="382" y="381" font-size="22" font-weight="400" text-anchor="end" class="">38</text>
+<text x="490" y="381" font-size="22" font-weight="400" text-anchor="end" class="">37</text>
+<text x="598" y="381" font-size="22" font-weight="400" text-anchor="end" class="">68</text>
+<text x="712" y="381" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 58 407 H 726" stroke="#D8E2ED"/>
+<rect x="58" y="407" width="668" height="66" rx="0" fill="#FFFFFF"/>
+<text x="72" y="447" font-size="22" font-weight="400" text-anchor="start" class="">Cedar</text>
+<text x="274" y="447" font-size="22" font-weight="400" text-anchor="end" class="">85.5</text>
+<text x="382" y="447" font-size="22" font-weight="400" text-anchor="end" class="">40</text>
+<text x="490" y="447" font-size="22" font-weight="400" text-anchor="end" class="">35</text>
+<text x="598" y="447" font-size="22" font-weight="400" text-anchor="end" class="">65</text>
+<text x="712" y="447" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 58 473 H 726" stroke="#D8E2ED"/>
+<text x="58" y="513" font-size="17" font-weight="400" text-anchor="start" class="muted">Time columns: milliseconds. Count: coverage, not ranked.</text>
+<text x="58" y="552" font-size="19" font-weight="400" text-anchor="start" class="">Question: which method leads on each metric?</text>
+<text x="58" y="582" font-size="18" font-weight="400" text-anchor="start" class="muted">A single winning row would hide this distinction.</text>
+<rect x="824" y="106" width="744" height="514" rx="18" fill="#FFFFFF" stroke="#D8E2ED"/>
+<text x="850" y="146" font-size="17" font-weight="700" text-anchor="start" class="">AFTER</text>
+<text x="850" y="181" font-size="19" font-weight="400" text-anchor="start" class="muted">Same values. Independent metric emphasis.</text>
+<rect x="850" y="215" width="668" height="60" rx="0" fill="#E8F0FC"/>
+<text x="864" y="251" font-size="19" font-weight="700" text-anchor="start" class="">Method</text>
+<text x="1066" y="251" font-size="19" font-weight="700" text-anchor="end" class="">Score ↑</text>
+<text x="1174" y="251" font-size="19" font-weight="700" text-anchor="end" class="">mean ↓</text>
+<text x="1282" y="251" font-size="19" font-weight="700" text-anchor="end" class="">median ↓</text>
+<text x="1390" y="251" font-size="19" font-weight="700" text-anchor="end" class="">p95 ↓</text>
+<text x="1504" y="251" font-size="19" font-weight="700" text-anchor="end" class="">Count</text>
+<rect x="850" y="275" width="668" height="66" rx="0" fill="#F2F6FD"/>
+<text x="864" y="315" font-size="22" font-weight="400" text-anchor="start" class="">Aster</text>
+<text x="1066" y="315" font-size="22" font-weight="400" text-anchor="end" class="">83.0</text>
+<text x="1174" y="315" font-size="22" font-weight="400" text-anchor="end" class="">42</text>
+<text x="1282" y="315" font-size="22" font-weight="400" text-anchor="end" class="">40</text>
+<text x="1390" y="315" font-size="22" font-weight="400" text-anchor="end" class="">70</text>
+<text x="1504" y="315" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 850 341 H 1518" stroke="#D8E2ED"/>
+<rect x="850" y="341" width="668" height="66" rx="0" fill="#F2F6FD"/>
+<text x="864" y="381" font-size="22" font-weight="400" text-anchor="start" class="">Birch</text>
+<text x="1066" y="381" font-size="22" font-weight="700" text-anchor="end" class="">85.5</text>
+<text x="1174" y="381" font-size="22" font-weight="700" text-anchor="end" class="">38</text>
+<text x="1282" y="381" font-size="22" font-weight="400" text-anchor="end" class="">37</text>
+<text x="1390" y="381" font-size="22" font-weight="400" text-anchor="end" class="">68</text>
+<text x="1504" y="381" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 850 407 H 1518" stroke="#D8E2ED"/>
+<rect x="850" y="407" width="668" height="66" rx="0" fill="#F2F6FD"/>
+<text x="864" y="447" font-size="22" font-weight="400" text-anchor="start" class="">Cedar</text>
+<text x="1066" y="447" font-size="22" font-weight="700" text-anchor="end" class="">85.5</text>
+<text x="1174" y="447" font-size="22" font-weight="400" text-anchor="end" class="">40</text>
+<text x="1282" y="447" font-size="22" font-weight="700" text-anchor="end" class="">35</text>
+<text x="1390" y="447" font-size="22" font-weight="700" text-anchor="end" class="">65</text>
+<text x="1504" y="447" font-size="22" font-weight="400" text-anchor="end" class="">10/10</text>
+<path d="M 850 473 H 1518" stroke="#D8E2ED"/>
+<text x="850" y="513" font-size="17" font-weight="400" text-anchor="start" class="muted">Time columns: milliseconds. Count: coverage, not ranked.</text>
+<rect x="842" y="526" width="684" height="70" rx="8" fill="#EAF7F3"/>
+<text x="850" y="552" font-size="19" font-weight="700" text-anchor="start" class="">Score: Birch = Cedar. Mean: Birch.</text>
+<text x="850" y="582" font-size="18" font-weight="400" text-anchor="start" class="muted">Median / p95: Cedar. Each statistic is separate.</text>
+<text x="40" y="650" font-size="17" font-weight="400" text-anchor="start" class="muted">Concept illustration only. Full-cell fills require native table tools; plain Markdown does not preserve these colors.</text>
+</svg>
