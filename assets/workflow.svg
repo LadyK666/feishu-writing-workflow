@@ -1,30 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="610" viewBox="0 0 1400 610" role="img" aria-labelledby="title desc">
-<title id="title">Feishu writing workflow with optional local drafting</title><desc id="desc">The primary process reads authorized material, reviews drafts, writes to Feishu, and reads back. Optional subagents receive only local material and return drafts. They do not log in or write to the service.</desc>
-<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#172B4D} .muted{fill:#526580}</style>
-<rect x="0" y="0" width="1400" height="610" rx="24" fill="#F8FAFD"/>
-<text x="40" y="51" font-size="29" font-weight="700" text-anchor="start" class="">One process owns the Feishu connection</text>
-<text x="40" y="85" font-size="20" font-weight="400" text-anchor="start" class="muted">Optional drafting tasks return artifacts. Remote access stays with the primary process.</text>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="#526580"/></marker></defs>
-<rect x="30" y="120" width="1340" height="210" rx="18" fill="#E8F0FC"/>
-<text x="53" y="156" font-size="17" font-weight="700" text-anchor="start" class="">PRIMARY PROCESS</text>
-<rect x="55" y="190" width="320" height="108" rx="12" fill="#FFFFFF" stroke="#D8E2ED"/>
-<text x="77" y="232" font-size="24" font-weight="700" text-anchor="start" class="">Read source</text>
-<text x="77" y="270" font-size="19" font-weight="400" text-anchor="start" class="muted">Authorized Feishu access</text>
-<rect x="540" y="190" width="320" height="108" rx="12" fill="#FFFFFF" stroke="#D8E2ED"/>
-<text x="562" y="232" font-size="24" font-weight="700" text-anchor="start" class="">Review draft</text>
-<text x="562" y="270" font-size="19" font-weight="400" text-anchor="start" class="muted">Check values and scope</text>
-<rect x="1025" y="190" width="320" height="108" rx="12" fill="#FFFFFF" stroke="#D8E2ED"/>
-<text x="1047" y="232" font-size="22" font-weight="700" text-anchor="start" class="">Write to Feishu + verify</text>
-<text x="1047" y="270" font-size="19" font-weight="400" text-anchor="start" class="muted">Verify content and style</text>
-<path d="M 375 241 H 540" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M 860 241 H 1025" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="330" y="391" width="570" height="152" rx="18" fill="#EAF7F3" stroke="#D8E2ED"/>
-<text x="358" y="426" font-size="17" font-weight="700" text-anchor="start" class="">OPTIONAL LOCAL DRAFTING</text>
-<text x="358" y="465" font-size="24" font-weight="700" text-anchor="start" class="">Draft  ·  Refine  ·  Style</text>
-<text x="358" y="502" font-size="19" font-weight="400" text-anchor="start" class="muted">Local artifacts only. No login or remote writes.</text>
-<path d="M 215 298 V 464 H 330" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
-<text x="64" y="366" font-size="17" font-weight="400" text-anchor="start" class="muted">Local material</text>
-<path d="M 700 391 V 298" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
-<text x="719" y="367" font-size="17" font-weight="400" text-anchor="start" class="muted">Draft + evidence</text>
-<text x="40" y="584" font-size="18" font-weight="400" text-anchor="start" class="muted">Small tasks can stay in one process. Verify before reporting completion; do not confuse API readback with visual review.</text>
+<title id="title">Three Feishu document skills and their official upstream</title>
+<desc id="desc">The writing workflow organizes and reviews. The table skill returns a design. The bridge handles reads, writes, and readback through official lark-shared, lark-doc, and optional lark-drive. Optional subagents only draft locally.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#172B4D}.muted{fill:#526580}</style>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#526580"/></marker></defs>
+<rect x="0" y="0" width="1400" height="610" rx="15" fill="#F8FAFD" stroke="#D8E2ED"/>
+<text x="38" y="48" font-size="30" font-weight="700" class="">Three skills for Feishu documents</text>
+<text x="38" y="83" font-size="20" font-weight="400" class="muted">Writing and review  ·  Table design  ·  Connection and readback</text>
+<rect x="38" y="126" width="410" height="164" rx="15" fill="#E8F0FC" stroke="#D8E2ED"/>
+<rect x="518" y="126" width="390" height="164" rx="15" fill="#EAF7F3" stroke="#D8E2ED"/>
+<rect x="970" y="126" width="392" height="164" rx="15" fill="#E8F0FC" stroke="#D8E2ED"/>
+<text x="62" y="163" font-size="15" font-weight="700" class="">WRITING ENTRY</text>
+<text x="62" y="200" font-size="24" font-weight="700" class="">feishu-document-workflow</text>
+<text x="62" y="238" font-size="22" font-weight="400" class="">Scope  ·  Draft  ·  Review</text>
+<text x="62" y="269" font-size="18" font-weight="400" class="muted">Coordinates the document task</text>
+<text x="542" y="163" font-size="15" font-weight="700" class="">TABLE DESIGN</text>
+<text x="542" y="200" font-size="23" font-weight="700" class="">table-writing-and-styling</text>
+<text x="542" y="238" font-size="21" font-weight="400" class="">Structure  ·  Emphasis  ·  Color</text>
+<text x="542" y="269" font-size="18" font-weight="400" class="muted">Returns a table and style plan</text>
+<text x="994" y="163" font-size="15" font-weight="700" class="">FEISHU ADAPTER</text>
+<text x="994" y="200" font-size="25" font-weight="700" class="">feishu-bridge-docs</text>
+<text x="994" y="238" font-size="21" font-weight="400" class="">Read  ·  Write  ·  Read back</text>
+<text x="994" y="269" font-size="18" font-weight="400" class="muted">Primary process keeps access</text>
+<path d="M448 187 H518" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="455" y="175" font-size="14" font-weight="400" class="muted">Task</text>
+<path d="M518 253 H448" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="456" y="279" font-size="14" font-weight="400" class="muted">Plan</text>
+<path d="M243 290 V333 H1110 V290" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="368" y="365" font-size="20" font-weight="400" class="muted">Read source, then write the reviewed result and verify</text>
+<rect x="38" y="407" width="870" height="156" rx="15" fill="#EAF7F3" stroke="#D8E2ED"/>
+<text x="62" y="444" font-size="16" font-weight="700" class="">OPTIONAL LOCAL SUBTASKS</text>
+<text x="62" y="484" font-size="25" font-weight="700" class="">Organize  ·  Draft  ·  Shorten  ·  Review</text>
+<text x="62" y="524" font-size="20" font-weight="400" class="muted">Return local artifacts. No Feishu login, credentials, or remote edits.</text>
+<rect x="970" y="407" width="392" height="156" rx="15" fill="#FFFFFF" stroke="#D8E2ED"/>
+<text x="994" y="444" font-size="16" font-weight="700" class="">OFFICIAL UPSTREAM</text>
+<text x="994" y="484" font-size="25" font-weight="700" class="">lark-shared  ·  lark-doc</text>
+<text x="994" y="524" font-size="20" font-weight="400" class="muted">lark-drive when needed</text>
+<path d="M1264 290 V407" fill="none" stroke="#526580" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="38" y="591" font-size="18" font-weight="400" class="muted">Load the skills needed for the task. Three skills do not require three models or a fixed three-stage sequence.</text>
 </svg>

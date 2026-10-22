@@ -1,11 +1,11 @@
 ---
 name: table-writing-and-styling
-description: Create, organize, edit, and style tables for papers, experiment comparisons, reports, semantic summaries, plans, and matrices. Use for table structure, evidence-based emphasis, metric direction, colors, alignment, and widths across document platforms.
+description: Design, organize, and style tables in Feishu/Lark documents. Use for experiment comparisons, reports, semantic tables, matrices, metric emphasis, colors, alignment, and column widths.
 ---
 
 # Table Writing & Styling
 
-让读者先看清比较对象，再找到关键值与关键文字，最后读到来源支持的解释。设计与目标平台的操作分开：本技能提供表格决策，写入由当前环境已有的工具完成。
+负责飞书文档中的表格设计与美化。[feishu-document-workflow](../feishu-document-workflow/SKILL.md) 提供资料与编辑范围，审核本技能返回的表格；[feishu-bridge-docs](../feishu-bridge-docs/SKILL.md) 将设计应用到飞书并回读。独立表格设计可以直接使用本技能。
 
 ## 先确定修改权限
 
