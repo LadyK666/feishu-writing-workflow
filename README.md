@@ -22,7 +22,7 @@
 npx skills add LadyK666/feishu-writing-workflow -a codex
 ```
 
-需要 Node.js 22.20+。添加 `-g` 可安装到用户级；当前仓库私有，安装者需有访问权限。
+需要 Node.js 22.20+。添加 `-g` 可安装到用户级。
 
 飞书连接使用官方 [larksuite/cli](https://github.com/larksuite/cli) 及其技能：
 

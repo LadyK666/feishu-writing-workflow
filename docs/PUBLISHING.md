@@ -1,8 +1,8 @@
 # 分发
 
-当前仓库为私有，安装需要 GitHub 访问权限。使用者应安装本仓库的三个技能，并按 README 准备官方飞书 CLI 与技能。
+安装本仓库的三个技能，再按 README 准备官方飞书 CLI 与技能。
 
-公开后可按仓库地址安装：
+按仓库地址安装：
 
 ```sh
 npx skills add LadyK666/feishu-writing-workflow -a codex
